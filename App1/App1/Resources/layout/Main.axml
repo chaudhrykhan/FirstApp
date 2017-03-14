@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:minWidth="25px"
     android:minHeight="25px"
-    android:background="@drawable/main">
+    android:background="@drawable/main_page">
     <ImageButton
         android:src="@drawable/add_icon"
         android:layout_width="300px"
