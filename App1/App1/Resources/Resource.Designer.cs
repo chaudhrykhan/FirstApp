@@ -45,7 +45,7 @@ namespace App1
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int main = 2130837504;
 			
 			static Drawable()
 			{
@@ -53,6 +53,28 @@ namespace App1
 			}
 			
 			private Drawable()
+			{
+			}
+		}
+		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f050001
+			public const int add_team = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int create_match = 2131034114;
+			
+			// aapt resource value: 0x7f050000
+			public const int main_menu = 2131034112;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
 			{
 			}
 		}
@@ -76,11 +98,8 @@ namespace App1
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
-			
 			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			public const int ApplicationName = 2130968576;
 			
 			static String()
 			{

@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
-</LinearLayout>
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@drawable/main">
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="150px"
+        android:id="@+id/main_menu">
+        <Button
+            android:text="Add Team"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_team" />
+        <Button
+            android:text="Create match"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/create_match" />
+    </Toolbar>
+</RelativeLayout>
