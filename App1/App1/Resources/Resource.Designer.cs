@@ -67,7 +67,7 @@ namespace App1
 			public const int create_match = 2131034114;
 			
 			// aapt resource value: 0x7f050000
-			public const int main_menu = 2131034112;
+			public const int mainmenu = 2131034112;
 			
 			static Id()
 			{

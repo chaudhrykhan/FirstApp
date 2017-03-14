@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingLeft="150px"
-        android:id="@+id/main_menu">
+        android:id="@+id/mainmenu">
         <Button
             android:text="Add Team"
             android:layout_width="wrap_content"
